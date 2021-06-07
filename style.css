@@ -47,7 +47,18 @@ button:hover{
     margin-right: 5%;   
 }
 
+.language{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 220px;
+}
 
+#language_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
 
 .require_text {
     width: 250px;
@@ -1030,13 +1041,7 @@ button:hover{
     
     font-weight: 900;
 }
-.hidden_words{
-    margin-top: -2400px;
-    border: 1px solid red;
-}
-.hidden_words h2{
-    font-size: 5px;
-}
+
 
 @media screen and (max-width: 1024px){
     .header_text{
