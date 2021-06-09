@@ -311,14 +311,13 @@ button:hover{
     
     color: #064153;
     font-size: 34px;
-    padding-left: 143px;
+    text-align: center;
     padding-top: 25px;
     
 }
 .about_company p{
     font-size: 16px;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 15px;
 }
 
 .b_benefits{
@@ -1213,6 +1212,8 @@ button:hover{
         width: 31%;
     }
     .language{
+        width: 20px;
+        height: 20px;
         margin-left: 140px;
     }
 
@@ -1326,6 +1327,15 @@ button:hover{
         font-size: 20px;
         margin-top: -250px;
     }
+    .slide2_result{
+        font-size: 20px;
+        margin-top: -280px;
+    }
+    .slide21_result{
+        font-size: 15px;
+        margin-top: -90px;
+        margin-left: 190px;
+    }
     
     .slide3{
         margin-top: -300px;
@@ -1429,9 +1439,7 @@ button:hover{
     .header_text{
         font-size: 13px;
     }
-    .about_company h2{
-        padding-left: 100px;
-    }
+    
     .line_of_pictures{
         letter-spacing: 18px;
     }
@@ -1441,6 +1449,15 @@ button:hover{
     .slide2{
         font-size: 18px;
         margin-top: -200px;
+    }
+    .slide2_result{
+        font-size: 18px;
+        margin-top: -250px;
+    }
+    .slide21_result{
+        font-size: 12px;
+        margin-top: -60px;
+        margin-left: 160px;
     }
     .slide5{
         margin-top: -175px;
@@ -1567,9 +1584,7 @@ button:hover{
         font-size: 12px;
         margin-top: 2%;
     }
-    .about_company h2{
-        padding-left: 82px;
-    }
+    
     .line_of_pictures{
         letter-spacing: 18px;
         margin-top: 35px;
@@ -1635,6 +1650,14 @@ button:hover{
     .slide2{
         font-size: 18px;
         margin-top: -190px;
+    }
+    .slide2_result{
+        font-size: 18px;
+        margin-top: -230px;
+    }
+    .slide21_result{
+        margin-top: -60px;
+        margin-left: 150px;
     }
     .slide3{
         font-size: 18px;
