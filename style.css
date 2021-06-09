@@ -58,6 +58,10 @@ button:hover{
     width: 30px;
     height: 30px;
     border-radius: 100%;
+    
+}
+#language_icon:hover{
+    box-shadow: 0 0 12px #fff;
 }
 
 .require_text {
@@ -394,6 +398,26 @@ button:hover{
     color: #064153;
     z-index: 3;
 }
+.slide2_result{
+    position: absolute;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: -400px;
+    margin-left: 30px;
+    color: #064153;
+    z-index: 3;
+}
+
+.slide21_result{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -100px;
+    margin-left: 240px;
+    color: #064153;
+    z-index: 3;
+}
+
 .slide3{
     position: absolute;
     font-family: 'Comfortaa';
@@ -1302,6 +1326,7 @@ button:hover{
         font-size: 20px;
         margin-top: -250px;
     }
+    
     .slide3{
         margin-top: -300px;
     }
