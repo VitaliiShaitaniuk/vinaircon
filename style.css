@@ -49,9 +49,11 @@ button:hover{
 
 .language{
     position: absolute;
+    display: flex;
+    justify-content: center;
     width: 30px;
     height: 30px;
-    margin-left: 220px;
+    margin-left: 235px;
 }
 
 #language_icon{
@@ -331,8 +333,7 @@ button:hover{
 .benefits{
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    justify-content: center;
+    align-items: center;
     width: auto;
     height: 403px;
     background-color: #fff;
@@ -367,15 +368,13 @@ button:hover{
     
     display: flex;
     justify-content: space-between;
-    
+    width: 95%;
     font-weight: 600;
     text-align: center;
     
     margin-top: 20px;
 }
-.p5{
-    margin-right: 15px;
-}
+
 
 #mySlider{
     display: block;
@@ -1259,25 +1258,10 @@ button:hover{
     }
     .line_of_text{
         justify-content: space-around;
-        width: 100%;
+        width: 92%;
         font-size: 12px;
     }
-    .p1{
-        margin-left: 1px;
-    }
-    .line_of_text .p2{
-        margin-left: -9px;
-    }
-    .line_of_text .p5{
-        margin-left: 1px;
-        margin-right: 15px;
-    }
-    .line_of_text .p3{
-        margin-left: -7px;
-    }
-    .line_of_text .p4{
-        margin-left: -10px;
-    }
+    
     #mySlider{
         
         width: 100%;
@@ -1561,6 +1545,10 @@ button:hover{
         margin-top: 20px;
         margin-left: 2px;   
     }
+    .language{
+        margin-left: 115px;
+        
+    }
     .tel_gusi{
         font-size: 12px;
     }
@@ -1594,6 +1582,7 @@ button:hover{
     }
     .line_of_text{
         font-size: 10px;
+        width: 95%;
     }
 
     #require_text{
