@@ -61,11 +61,11 @@ button:hover{
 }
 
 .require_text {
-    width: 250px;
+    width: 100%;
     font-size: 12px;
     font-weight: 550;
+    text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    padding-left: 22px;
     padding-top: 14px;
     line-height: 1.5em;
 }
@@ -363,25 +363,17 @@ button:hover{
 .line_of_text{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
     font-weight: 600;
     text-align: center;
     
     margin-top: 20px;
 }
-.line_of_text .p2{
-    margin-left: 18px;
+.p5{
+    margin-right: 15px;
 }
-.line_of_text .p3{
-    margin-left: 20px;
-}
-.line_of_text .p4{
-    margin-left: 45px;
-}
-.line_of_text .p5{
-    margin-left: 57px;
-}
+
 #mySlider{
     display: block;
     margin-left: auto;
@@ -1196,6 +1188,15 @@ button:hover{
         margin-right: 4%;
         width: 31%;
     }
+    .language{
+        margin-left: 140px;
+    }
+
+    #language_icon{
+        width: 15px;
+        height: 15px;
+    }
+
     .button_top{
         height: 20px;
         width: 127px;
@@ -1232,6 +1233,7 @@ button:hover{
         width: 60px;
     }
     .line_of_text{
+        justify-content: space-around;
         width: 100%;
         font-size: 12px;
     }
@@ -1388,6 +1390,16 @@ button:hover{
     .right_head{
         width: 32%;
         margin-right: 0;
+    }
+    .language{
+        margin-left: 105px;
+        
+    }
+
+    #language_icon{
+        margin-bottom: 10px;
+        width: 15px;
+        height: 15px;
     }
     .header_text{
         font-size: 13px;
