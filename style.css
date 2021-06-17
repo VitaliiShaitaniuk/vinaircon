@@ -147,71 +147,7 @@ button:hover{
     letter-spacing: 0.001px;
 }
 
-.first_menu{
-    list-style: none;
-}
 
-.first_item{
-    margin-top: 40px;
-    position: absolute;
-    list-style-type: none;
-    
-    z-index: 3;
-}
-.single_menu{
-    margin-top: 60px;
-    height: 50%;
-    width: 30%;
-    
-    
-}
-
-/*слово каталог*/
-.single_menu > ul li a {
-    display: block;
-    font-size: 20px;
-    color:white;
-    font-weight: 500;
-}
-.single_menu li a{
-    padding: 5px 56px 5px 56px;
-    
-}
-.single_menu li a:hover{
-    
-    background: #ece646;
-    text-decoration: none;
-    color: black;
-    box-shadow: 1px 5px 10px -5px black;
-    transition: all 0.3s ease;
-}
-.single_menu li ul{
-    font-family: 'Comfortaa';
-    
-    width: 190px;
-    position: absolute;
-    display: none;
-}
-.single_menu li> ul li a{
-    padding: 10px;
-    text-transform: none;
-}
-.single_menu > ul li >a i.fa{
-    position: absolute;
-    left: 33px;
-    top: 11px;
-    font-size: 18px;
-
-}
-.single_menu li:hover > ul{
-    display: block;
-}
-.single_menu li > ul li ul{
-    position: absolute;
-    list-style: none;
-    right: -190px;
-    top: 0;
-}
 
 .bottom_button{
     position: absolute;
@@ -1118,9 +1054,7 @@ button:hover{
         margin-right: 40px;
         
     }
-    .right_menu_catalog{
-        display: none;
-    }
+    
     #require_text{
         width: 40%;
         height: 50px;
@@ -1538,9 +1472,7 @@ button:hover{
     }
     
     /*правое меню*/
-    .right_menu_catalog{
-        display: none;
-    }
+    
     .first_item{
         margin-top: 20px;
         margin-left: 2px;   
