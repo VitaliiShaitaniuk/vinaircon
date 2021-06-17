@@ -30,7 +30,7 @@ button:hover{
 
 .left_head{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
     width: 32%; 
     height: 70%;
@@ -683,17 +683,18 @@ button:hover{
     min-height: 415px;
     border: 1px solid gray;
     margin: 10px;
-    padding: 10px;
-
-    transition: all .2s ease-in-out;
+    padding: 10px;    
 }
+.catalog_models_content div:hover{
+    box-shadow: 0 0 20px 1px #638da6;
+}
+
+
 .catalog_models_content div a{
     text-decoration: none;
     color: black;
 }
-.catalog_models_content div:hover{
-    transform: scale(1.1);
-}
+
 .catalog_models_content div img{
     padding-bottom: 20px;
     width: 90%;
@@ -1025,9 +1026,8 @@ button:hover{
         padding-top: 15px;
         margin-left: 0;
     }
-    .first_item{
-        
-        margin-top: 30px;
+    .language{
+        margin-left: 215px;
     }
     .require_box{
         display: none;
@@ -1477,10 +1477,7 @@ button:hover{
         margin-top: 20px;
         margin-left: 2px;   
     }
-    .language{
-        margin-left: 115px;
-        
-    }
+    
     .tel_gusi{
         font-size: 12px;
     }
