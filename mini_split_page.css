@@ -46,21 +46,22 @@ body{
 }
 .mini_s_p_container{
     
-    min-height: 730px;
+    min-height: 50em;
     width: 99%;
     margin: 5px;
     border: 1px solid black;
     background: rgb(228, 241, 245);
+    overflow: hidden;
 }
 
 .tabs{
     
     width: 96%;
-    min-height: 46em;
+    min-height: 50em;
     padding: 5px 15px;
     background: rgb(228, 241, 245);
     /*box-shadow: 5px 5px 10px 5px #ccc;*/
-    overflow: hidden;
+    
 }
 .tabs .tab-header{
     display: flex;
@@ -90,8 +91,8 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    min-height: 730px;
-    overflow: hidden;
+    min-height: 50em;
+    
 }
 
 
@@ -106,8 +107,8 @@ body{
     transition: all 500ms ease-in-out;
 }
 .tabs .tab-content > div.active{
+    position: relative;
     min-height: 38em;
-    
     top: 0px;
 }
 .brand{
