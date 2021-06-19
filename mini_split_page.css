@@ -3,6 +3,7 @@
     margin: 0;  
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
 .other_header{
@@ -30,6 +31,11 @@ body{
     
     font-size: 3em;
 }
+.contacts_and_time{
+    width: 13em;
+    height: 5em;
+    
+}
 .double_L{
     display: flex;
     justify-content: space-between;
@@ -38,9 +44,90 @@ body{
    
 
 }
-.mini_s_p_content{
-    min-height: 500px;
+.mini_s_p_container{
+    
+    min-height: 730px;
     width: 99%;
     margin: 5px;
     border: 1px solid black;
+    background: rgb(228, 241, 245);
+}
+
+.tabs{
+    
+    width: 96%;
+    min-height: 46em;
+    padding: 5px 15px;
+    background: rgb(228, 241, 245);
+    /*box-shadow: 5px 5px 10px 5px #ccc;*/
+    overflow: hidden;
+}
+.tabs .tab-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    float: left;
+    width: 130px;
+    min-height: 90%;
+    
+    padding: 50px 0px;
+}
+
+.tabs .tab-header > div {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    border-right: 1px solid rgb(197, 196, 196);
+    
+}
+.tabs .tab-header > div:hover,
+.tabs .tab-header > div.active{
+    color: #00acee;
+}
+.tabs .tab-content{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 730px;
+    overflow: hidden;
+}
+
+
+.tabs .tab-content > div {
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    width: 98%;
+    min-height: 40em;
+    
+    top: -200%;
+    transition: all 500ms ease-in-out;
+}
+.tabs .tab-content > div.active{
+    min-height: 38em;
+    
+    top: 0px;
+}
+.brand{
+    width: 100px;
+}
+.brand:hover{
+    box-shadow: 0 0 20px 1px #638da6;
+}
+.brend_blocks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 38em;
+    border: 1px solid red;
+}
+.card{
+    width: 364px;
+    height: 225px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+
 }
