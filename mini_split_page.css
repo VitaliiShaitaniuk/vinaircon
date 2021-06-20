@@ -50,7 +50,7 @@ body{
     width: 99%;
     margin: 5px;
     border: 1px solid black;
-    background: rgb(228, 241, 245);
+    
     overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ body{
     width: 96%;
     min-height: 50em;
     padding: 5px 15px;
-    background: rgb(228, 241, 245);
+    
     /*box-shadow: 5px 5px 10px 5px #ccc;*/
     
 }
@@ -103,7 +103,7 @@ body{
     width: 98%;
     min-height: 40em;
     
-    top: -200%;
+    top: -350%;
     transition: all 500ms ease-in-out;
 }
 .tabs .tab-content > div.active{
@@ -122,13 +122,64 @@ body{
     flex-wrap: wrap;
     width: 100%;
     min-height: 38em;
-    border: 1px solid red;
+    
 }
 .card{
+    display: flex;
     width: 364px;
     height: 225px;
-    border: 1px solid black;
+    background: #fff;
     border-radius: 5px;
     margin: 5px;
+    border: 0.1px solid rgb(8, 173, 8);
+    
+    cursor: pointer;
 
+}
+.card:hover{
+    box-shadow: 0 0 5px 1px #638da6;
+}
+.foto_brand{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    
+}
+.size_foto{
+    width: 150px;
+    height: 150px;
+}
+.description{
+    text-align: start;
+    width: 195px;
+    height: 220px;
+    
+}
+.price_case{
+    display: flex;
+    margin: 5px;
+}
+.price_word{
+    font-size: 16px;
+    font-weight: 600;
+}
+.price_digit{
+    color: rgb(8, 173, 8);
+    font-size: 16px;
+    font-weight: 600;
+}
+.dump_word{
+    margin: 5px;
+}
+.model{
+    margin: 5px;
+}
+.warranty{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 5px;
+}
+.p_descr{
+    font-size: 14px;
+    margin: 5px;
 }
